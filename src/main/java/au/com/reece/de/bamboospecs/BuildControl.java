@@ -112,7 +112,7 @@ public class BuildControl extends BambooController {
             yamlPlan.labels = new ArrayList<>();
         }
 
-        yamlPlan.labels.add("poweredBySpecs");
+        yamlPlan.labels.add("coe-devsecops");
 
         OkHttpClient client = new OkHttpClient();
 
